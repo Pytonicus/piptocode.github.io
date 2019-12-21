@@ -1,0 +1,194 @@
+
+
+
+
+
+
+
+
+.. math::
+
+  α_t(i) = P(O_1, O_2, … O_t, q_t = S_i λ)
+
+.. epigraph::
+
+   No matter where you go, there you are.
+
+   -- Buckaroo Banzai
+
+.. compound::
+
+   The 'rm' command is very dangerous.  If you are logged
+   in as root and enter ::
+
+       cd /
+       rm -rf *
+
+   you will erase the entire contents of your file system.
+
+.. container:: custom
+
+   This paragraph might be rendered in a custom way.
+
+.. list-table:: Frozen Delights!
+   :widths: 15 10 30
+   :header-rows: 1
+
+   * - Treat
+     - Quantity
+     - Description
+   * - Albatross
+     - 2.99
+     - On a stick!
+   * - Crunchy Frog
+     - 1.49
+     - If we took the bones out, it wouldn't be
+       crunchy, now would it?
+   * - Gannet Ripple
+     - 1.99
+     - On a stick!
+
+.. contents:: Tabla de contenidos
+
+.. contents:: Tabla reducida
+   :depth: 2
+
+.. meta::
+   :description: The reStructuredText plaintext markup language
+   :keywords: plaintext, markup language
+
+.. meta::
+   :description lang=en: An amusing story
+   :description lang=fr: Une histoire amusante
+
+.. |date| date::
+.. |time| date:: %H:%M
+
+Today's date is |date|.
+
+This document was generated on |date| at |time|.
+
+.. class:: special
+
+This is a "special" paragraph.
+
+.. class:: exceptional remarkable
+
+An Exceptional Section
+======================
+
+This is an ordinary paragraph.
+
+.. class:: multiple
+
+   First paragraph.
+
+   Second paragraph.
+
+.. code-block:: python
+    :linenos:
+
+    def saludar():
+        print('Hola mundo')
+
+.. code-block:: javascript
+   :linenos:
+
+   function saludar(){
+        console.log('Hola mundo');
+    }
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contenidos:
+
+   docu
+
+.. versionadded:: 2.5
+
+.. versionchanged:: 3.4
+
+.. deprecated:: 3.2
+
+.. note::
+
+   This function is not suitable for sending spam e-mails.
+
+.. warning:: hay que arreglar bien todo
+
+.. seealso::
+
+   Module :py:mod:`zipfile`
+      Documentation of the :py:mod:`zipfile` standard module.
+
+   `GNU tar manual, Basic Tar Format <http://link>`_
+      Documentation for tar archive files, including GNU tar extensions.
+
+
+.. rubric:: title
+
+.. centered:: LICENSE AGREEMENT
+
+.. hlist::
+   :columns: 3
+
+   * A list of
+   * short items
+   * that should be
+   * displayed
+   * horizontally
+
+.. code-block:: python
+
+   print('hola')
+
+.. code-block:: ruby
+   :lineno-start: 10
+
+   Some more Ruby code, with line numbering starting at 10.
+
+.. code-block:: python
+   :emphasize-lines: 3,5
+
+   def some_function():
+       interesting = False
+       print 'This line is highlighted.'
+       print 'This one is not...'
+       print '...but this one is.'
+
+.. code-block:: python
+   :caption: this.py
+   :name: this-py
+
+   print 'Explicit is better than implicit.'
+
+.. code-block:: ruby
+   :dedent: 4
+
+       some ruby code
+
+.. glossary::
+
+   environment
+      A structure where information about all documents under the root is
+      saved, and used for cross-referencing.  The environment is pickled
+      after the parsing stage, so that successive runs only need to read
+      and parse new and changed documents.
+
+   source directory
+      The directory which, including its subdirectories, contains all
+      source files for one Sphinx project.
+
+.. glossary::
+
+   term 1 : A
+   term 2 : B
+      Definition of both terms.
+
+.. sectionauthor:: Guido van Rossum <guido@python.org>
+
+.. index::
+   single: execution; context
+   module: __main__
+   module: sys
+   triple: module; search; path
